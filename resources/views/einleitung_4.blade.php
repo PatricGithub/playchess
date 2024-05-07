@@ -21,12 +21,12 @@
                     <ul>
                       <li>Es werden Ihnen immer zwei Schachstellungen paarweise dargeboten.</li>
                       <li>Ein 3 Sekunden Countdown wird vor der Präsentation jedes Schachbretts angezeigt, damit Sie sich vorbereiten können.</li>
+                      <li>Nun erhalten Sie die zwei Schachstellung, welche Sie vergleichen sollen. Sobald Sie fertig sind drücken Sie auf "Zur Bewertung". Die Zeit die Sie brauchen, bis Sie "Zur Bewertung" gedrückt haben, wird aufgezeichnet.</li>
                       <li>Bitte bewerten Sie, inwieweit Sie glauben, dass die beiden Schachbretter ähnlich sind. Verwenden Sie dazu die Skalierung, die von "Gar nicht ähnlich" bis "Sehr ähnlich" reicht.</li>
                       <li>Nach der Beurteilung der Schachbretter können Sie aus mehreren Antwortmöglichkeiten wählen, um zu begründen, worauf Sie Ihre Einschätzung der Ähnlichkeit gestützt haben.</li>
                     </ul>
                     <br>
-                    <p class="micro">Sie werden zufällig einer der drei Zeitdruckbedingungen zugeteilt. Einige Teilnehmer haben begrenzte Zeit für die Bewertung, während andere mehr Zeit haben.</p>
-                    <p class="micro margin-top-2">Die Zeit bis Sie zur nächsten Paarung gelangen wird aufgezeichnet.</p>
+                    <p class="micro">Sie werden zufällig einer der drei Zeitdruckbedingungen zugeteilt. Sobald Sie dann 10 Paare bewertet haben, werden Sie zur nächsten Zeitdruckbedingung weitergeleitet. Das Prozedere beginnt erneut. Sie müssen alle 3 Zeitdruckbedingungen durchlaufen, um erfolfreich teilzunehmen.</p>
                     <p class="micro margin-top-2">Es gibt keine richtigen oder falschen Antworten. Bitte geben Sie Ihre ehrliche Meinung an.</p>
                     <p class="micro margin-top-2">Bitte klicken Sie auf "Weiter", um mit dem Experiment zu beginnen.</p>
                     <br>

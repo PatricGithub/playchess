@@ -157,6 +157,7 @@ public function puzzle_2()
 
         public function einleitung_2(Request $request)
         {
+            Condition::query()->update(['taken' => 0]);
             // Get the values of the puzzle solved cookies
             $puzzle1Solved = $request->cookie('puzzle_1_solved');
             $puzzle2Solved = $request->cookie('puzzle_2_solved');
@@ -287,9 +288,19 @@ public function submitChessExperiment(Request $request)
         'description' => $description, 
         'pairing_type' => $pairing_type, 
     ]);
-    if ($nextimg == 30) {
+    if ($nextimg == 10) {
         // Redirect to the desired route for image number 121
-        return redirect()->route('exit_survey');
+        $availableConditions = Condition::where('taken', 0)->get();
+
+        if ($availableConditions->isEmpty()) {
+            // Reset all taken values to 0 if all conditions are taken
+            Condition::query()->update(['taken' => 0]);
+
+            // Fetch conditions again after reset
+            $availableConditions = Condition::where('taken', 0)->get();
+            return redirect()->route('exit_survey');
+        }
+        return redirect()->route('condition');
     }
     // Calculate the next image number
     $nextImageNumber = $nextimg + 1;
