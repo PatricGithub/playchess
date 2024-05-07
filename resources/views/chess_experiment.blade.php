@@ -57,7 +57,6 @@
                                 <option value="3">Die Situationen/Probleme auf beiden Schachbrettern können ähnlich gelöst werden.</option>
                                 <option value="4">Es gibt keine eindeutige Ähnlichkeit</option> 
                             </select>
-                            <input type="text" name="description" class="input" id="description" required>
                             </div>
                             @csrf
                             <br>
