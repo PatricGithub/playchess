@@ -227,7 +227,9 @@ public function puzzle_2()
 public function chess_experiment($nextimg, Request $request)
 {
     // Get the first trial order where taken = 0
-    $trialOrder = Image::where('taken', 0)->first();
+    $trialOrder2 = Image::where('taken', 0)->get();
+    $trialOrder3 = $trialOrder2->shuffle();
+    $trialOrder = $trialOrder3->first();
 
     // If there are no trial orders available, redirect or handle accordingly
     if (!$trialOrder) {
