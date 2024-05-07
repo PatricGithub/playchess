@@ -9,7 +9,7 @@
 
 </head>
 <body>
-    <section class="slide padding-top-md-4 padding-bottom-md-4" style="background: #F6F0E7; height: 100vw">
+    <section class="slide padding-top-md-4 padding-bottom-md-4" style="background: #F6F0E7">
         <div class="content">
           <div class="container">
             <div class="wrap">

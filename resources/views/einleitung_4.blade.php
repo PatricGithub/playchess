@@ -11,20 +11,22 @@
 </head>
 <body> 
        
-    <section class="slide padding-top-md-4 padding-bottom-md-4" style="background: #F6F0E7; height: 100vw">
+    <section class="slide padding-top-md-4 padding-bottom-md-4" style="background: #F6F0E7;">
         <div class="content">
           <div class="container">
             <div class="wrap">
                 <div class="fix-8-12 left magazine2">
                     <h1>Allgemeiner Versuchsablauf</h1>
-                    <p class="micro">Gleich werden Sie gebeten, die Ähnlichkeit von verschiedenen Schachbrettern zu bewerten.</p>
+                    <p class="micro">Ihr Aufgabe ist es die Ähnlichkeit von verschiedenen Schachbrettern zu bewerten.</p>
                     <ul>
-                      <li>Sie werden nacheinander zwei Schachbretter präsentiert bekommen.</li>
-                      <li>Bitte bewerten Sie, inwieweit Sie glauben, dass die beiden Schachbretter ähnlich sind. Verwenden Sie dazu die Likert-Skala, die von "Stimme überhaupt nicht zu" bis "Stimme vollkommen zu" reicht.</li>
-                      <li>Ein 3-sekündiger Countdown wird vor der Präsentation jedes Schachbretts angezeigt, damit Sie sich vorbereiten können.</li>
+                      <li>Es werden Ihnen immer zwei Schachstellungen paarweise dargeboten.</li>
+                      <li>Ein 3 Sekunden Countdown wird vor der Präsentation jedes Schachbretts angezeigt, damit Sie sich vorbereiten können.</li>
+                      <li>Bitte bewerten Sie, inwieweit Sie glauben, dass die beiden Schachbretter ähnlich sind. Verwenden Sie dazu die Skalierung, die von "Gar nicht ähnlich" bis "Sehr ähnlich" reicht.</li>
+                      <li>Nach der Beurteilung der Schachbretter können Sie aus mehreren Antwortmöglichkeiten wählen, um zu begründen, worauf Sie Ihre Einschätzung der Ähnlichkeit gestützt haben.</li>
                     </ul>
                     <br>
                     <p class="micro">Sie werden zufällig einer der drei Zeitdruckbedingungen zugeteilt. Einige Teilnehmer haben begrenzte Zeit für die Bewertung, während andere mehr Zeit haben.</p>
+                    <p class="micro margin-top-2">Die Zeit bis Sie zur nächsten Paarung gelangen wird aufgezeichnet.</p>
                     <p class="micro margin-top-2">Es gibt keine richtigen oder falschen Antworten. Bitte geben Sie Ihre ehrliche Meinung an.</p>
                     <p class="micro margin-top-2">Bitte klicken Sie auf "Weiter", um mit dem Experiment zu beginnen.</p>
                     <br>

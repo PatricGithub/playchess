@@ -10,7 +10,7 @@
     @livewireStyles
 </head>
 <body>
-    <section class="slide padding-top-md-4 padding-bottom-md-4" style="background: #F6F0E7; height: 100vw">
+    <section class="slide padding-top-md-4 padding-bottom-md-4" style="background: #F6F0E7">
         <div class="content">
           <div class="container">
             <div class="wrap">
@@ -29,8 +29,8 @@
                         Zunächst werden Sie drei Schachpuzzles lösen.
                         Die Lösungen dieser Puzzles werden uns dabei helfen, festzustellen, ob Sie ein Anfänger oder ein fortgeschrittener Schachspieler sind.
                         Nach der Identifikation werden Sie ein Set von Schachsituationen präsentiert bekommen. In diesen Situationen müssen Sie das Schachbrett beurteilen.
-Sie werden dieselben Situationen später in der Hauptstudie wiedersehen. In der Hauptstudie werden Ihnen zwei Schachsituationen gegenübergestellt.
-Ihre Aufgabe besteht darin, zu evaluieren, ob diese beiden Situationen ähnlich sind oder nicht.
+                        Sie werden dieselben Situationen später in der Hauptstudie wiedersehen. Hier werden Ihnen zwei Schachstellungen paarweise dargeboten.
+                        Ihre Aufgabe besteht darin, zu evaluieren, ob diese beiden Situationen ähnlich sind oder nicht.
                     </p>
                     
                     <h3><strong>Dauer</strong></h3>

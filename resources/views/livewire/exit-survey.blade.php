@@ -27,7 +27,7 @@
             </div>
     
             <div class="margin-top-2">
-                <label for="chessboardSpeed" class="label">3. Bewerten Sie die Geschwindigkeit, mit der die beiden Schachbretter angezeigt wurden.</label>
+                <label for="chessboardSpeed" class="label">3. Bewerten Sie das Tempo, mit der die beiden Schachbretter angezeigt wurden.</label>
                 <select class="input" wire:model="chessboardSpeed" required>
                     <option value="">Bitte wählen...</option>
                     <option value="slow">Zu langsam</option>

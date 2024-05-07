@@ -50,6 +50,13 @@
                             </div>
                             <div class="margin-top-2">
                             <label for="description" class="label margin-top-2">Woran haben Sie die Ähnlichkeit fest gemacht?</label>
+                            <select id="description" name="description" class="input" required>
+                                <option value="" disabled selected>Bitte wählen...</option>
+                                <option value="1">Die Schachbretter präsentieren eine fast identische Konstellation der Figuren.</option>
+                                <option value="2">Beide Schachpartien können ähnlich zuende gespielt werden.</option>
+                                <option value="3">Die Situationen/Probleme auf beiden Schachbrettern können ähnlich gelöst werden.</option>
+                                <option value="4">Es gibt keine eindeutige Ähnlichkeit</option> 
+                            </select>
                             <input type="text" name="description" class="input" id="description" required>
                             </div>
                             @csrf
