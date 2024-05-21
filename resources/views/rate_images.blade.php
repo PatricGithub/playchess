@@ -35,7 +35,7 @@
         </div>
         <br>
         <div>
-            <label for="answer" class="label">Geben Sie den nächsten Zug für Weiß an:</label>
+            <label for="answer" class="label">Wie lautet der nächste Zug für Weiß in Schachnotation?</label>
             <input type="text" name="answer" id="answer" class="input" required>
         </div>
         <!-- Hidden fields to store image path and participant expertise -->
